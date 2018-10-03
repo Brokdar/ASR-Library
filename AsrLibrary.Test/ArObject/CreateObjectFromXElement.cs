@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Xml.Linq;
-using AsrLibrary.Tests.ArObject.TestDouble;
+using AsrLibrary.Test.ArObject.TestDouble;
 using Xunit;
 
-namespace AsrLibrary.Tests.ArObject
+namespace AsrLibrary.Test.ArObject
 {
     public class CreateObjectFromXElement
     {

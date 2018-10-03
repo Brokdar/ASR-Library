@@ -1,10 +1,9 @@
 ﻿using System.Xml.Linq;
-using AsrLibrary.Tests.ArIdentifiable.TestDouble;
-using ASR.Model;
+using AsrLibrary.Test.ArIdentifiable.TestDouble;
 using ASR.Model.Identification;
 using Xunit;
 
-namespace AsrLibrary.Tests.ArIdentifiable
+namespace AsrLibrary.Test.ArIdentifiable
 {
     public class DefaultIdentifiable
     {

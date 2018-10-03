@@ -2,7 +2,7 @@
 using System.Xml.Linq;
 using Xunit;
 
-namespace AsrLibrary.Tests.ArPackage
+namespace AsrLibrary.Test.ArPackage
 {
     public class CreatePackageFromXElement
     {

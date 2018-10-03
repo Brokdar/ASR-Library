@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using System.Xml.Linq;
-using AsrLibrary.Tests.ArIdentifiable.TestDouble;
+using AsrLibrary.Test.ArIdentifiable.TestDouble;
 using Xunit;
 
-namespace AsrLibrary.Tests.ArIdentifiable
+namespace AsrLibrary.Test.ArIdentifiable
 {
     public class CreateIdentifiableFromXElement
     {

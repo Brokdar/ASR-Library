@@ -1,7 +1,7 @@
 ﻿using System.Xml.Linq;
 using ASR.Model.Identification;
 
-namespace AsrLibrary.Tests.ArIdentifiable.TestDouble
+namespace AsrLibrary.Test.ArIdentifiable.TestDouble
 {
     public class ArIdentifiableDouble : Identifiable
     {
