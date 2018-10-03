@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DOCUMENTATION-BLOCK>
+  <P>
+    <L-1 L="EN">
+      In a documentation block written in English,
+      French and German, for example, it is easier
+      to maintain the three versions consistent
+      when each paragraph is immediately followed
+      by its translation in the other languages as
+      when they are found at completely different
+      locations or worse separated documents.
+    </L-1>
+    <L-1 L="FR">
+      Dans un bloque documentaire écrit en anglais,
+      français et allemand, par exemple, il est plus
+      facile de maintenir les trois versions
+      consistantes entre elles, quand chaque paragraphe
+      est suivi immédiatement de sa traduction dans les
+      autres langues que si ces dernières ce trouvaient
+      dans des endroits différents ou même pire dans des
+      documents séparés.
+    </L-1>
+  </P>
+</DOCUMENTATION-BLOCK>

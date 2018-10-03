@@ -60,6 +60,8 @@
     <Compile Include="Model\ArElement\DefaultElement.cs" />
     <Compile Include="Model\Autosar\CreateAutosarWithData.cs" />
     <Compile Include="Model\Autosar\DefaultAutosar.cs" />
+    <Compile Include="Model\Documentation\DocumentationBlock\CreateDocumentationBlockFromXElement.cs" />
+    <Compile Include="Model\Documentation\DocumentationBlock\DefaultDocumentationBlock.cs" />
     <Compile Include="Model\Identification\Identifiable\CreateIdentifiableFromXElement.cs" />
     <Compile Include="Model\Identification\Identifiable\DefaultIdentifiable.cs" />
     <Compile Include="Model\Identification\Identifiable\TestDouble\IdentifiableDouble.cs" />
@@ -81,6 +83,7 @@
     <Content Include="Model\Autosar\ExampleData\01_Autosar.xml" />
     <Content Include="Model\Autosar\ExampleData\02_Autosar.xml" />
     <Content Include="Model\Autosar\ExampleData\03_Autosar.xml" />
+    <Content Include="Model\Documentation\DocumentationBlock\ExampleData\00_DocumentationBlock.xml" />
     <Content Include="Model\Identification\Identifiable\ExampleData\00_ArIdentifiable.xml" />
     <Content Include="Model\Identification\Identifiable\ExampleData\01_ArIdentifiable.xml" />
     <Content Include="Model\ArPackage\ExampleData\00_ArPackage.xml" />
