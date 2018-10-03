@@ -1,7 +1,7 @@
 ﻿using System.Xml.Linq;
 using Xunit;
 
-namespace AsrLibrary.Test.ArElement
+namespace AsrLibrary.Test.Model.ArElement
 {
     public class DefaultElement
     {

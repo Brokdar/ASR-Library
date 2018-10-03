@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Xml.Linq;
-using AsrLibrary.Test.ArObject.TestDouble;
+using AsrLibrary.Test.Model.ArObject.TestDouble;
 using Xunit;
 
-namespace AsrLibrary.Test.ArObject
+namespace AsrLibrary.Test.Model.ArObject
 {
     public class CreateObjectFromXElement
     {
-        private const string ObjectInformation = "../../ArObject/ExampleData/00_ArObject.xml";
+        private const string ObjectInformation = "../../Model/ArObject/ExampleData/00_ArObject.xml";
         private ArObjectDouble _object;
 
         [Fact]

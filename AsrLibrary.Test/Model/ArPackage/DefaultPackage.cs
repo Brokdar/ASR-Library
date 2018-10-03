@@ -1,7 +1,7 @@
 ﻿using System.Xml.Linq;
 using Xunit;
 
-namespace AsrLibrary.Test.ArPackage
+namespace AsrLibrary.Test.Model.ArPackage
 {
     public class DefaultPackage
     {

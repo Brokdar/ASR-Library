@@ -1,6 +1,6 @@
 ﻿using System.Xml.Linq;
 
-namespace AsrLibrary.Test.ArObject.TestDouble
+namespace AsrLibrary.Test.Model.ArObject.TestDouble
 {
     public class ArObjectDouble : ASR.Model.ArObject
     {

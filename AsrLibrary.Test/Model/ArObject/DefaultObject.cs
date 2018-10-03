@@ -1,8 +1,8 @@
 ﻿using System.Xml.Linq;
-using AsrLibrary.Test.ArObject.TestDouble;
+using AsrLibrary.Test.Model.ArObject.TestDouble;
 using Xunit;
 
-namespace AsrLibrary.Test.ArObject
+namespace AsrLibrary.Test.Model.ArObject
 {
     public class DefaultObject
     {

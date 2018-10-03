@@ -1,19 +1,19 @@
 ﻿using System.Xml.Linq;
-using AsrLibrary.Test.ArIdentifiable.TestDouble;
+using AsrLibrary.Test.Model.Identification.Identifiable.TestDouble;
 using ASR.Model.Identification;
 using Xunit;
 
-namespace AsrLibrary.Test.ArIdentifiable
+namespace AsrLibrary.Test.Model.Identification.Identifiable
 {
     public class DefaultIdentifiable
     {
         private const string EmptyNode = "<Node></Node>";
-        private readonly Identifiable _identifiable;
+        private readonly ASR.Model.Identification.Identifiable _identifiable;
 
         public DefaultIdentifiable()
         {
             var node = XElement.Parse(EmptyNode);
-            _identifiable = new ArIdentifiableDouble(node);
+            _identifiable = new IdentifiableDouble(node);
         }
 
         [Fact]

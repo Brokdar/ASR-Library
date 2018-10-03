@@ -1,21 +1,21 @@
 ﻿using System.Linq;
 using System.Xml.Linq;
-using AsrLibrary.Test.ArIdentifiable.TestDouble;
+using AsrLibrary.Test.Model.Identification.Identifiable.TestDouble;
 using Xunit;
 
-namespace AsrLibrary.Test.ArIdentifiable
+namespace AsrLibrary.Test.Model.Identification.Identifiable
 {
     public class CreateIdentifiableFromXElement
     {
-        private const string EmptyIdentifiable = "../../ArIdentifiable/ExampleData/00_ArIdentifiable.xml";
-        private const string Identifiable = "../../ArIdentifiable/ExampleData/01_ArIdentifiable.xml";
+        private const string EmptyIdentifiable = "../../Model/Identification/Identifiable/ExampleData/00_ArIdentifiable.xml";
+        private const string Identifiable = "../../Model/Identification/Identifiable/ExampleData/01_ArIdentifiable.xml";
 
         [Fact]
         public void GivenEmptyNode_ThenDefaultPackageGetsReturned()
         {
             var node = XElement.Load(EmptyIdentifiable);
 
-            var identifiable = new ArIdentifiableDouble(node);
+            var identifiable = new IdentifiableDouble(node);
 
             Assert.NotNull(identifiable);
             Assert.Null(identifiable.ShortName);
@@ -30,7 +30,7 @@ namespace AsrLibrary.Test.ArIdentifiable
         {
             var node = XElement.Load(Identifiable);
 
-            var identifiable = new ArIdentifiableDouble(node);
+            var identifiable = new IdentifiableDouble(node);
 
             Assert.Equal("Name", identifiable.ShortName);
         }
@@ -40,7 +40,7 @@ namespace AsrLibrary.Test.ArIdentifiable
         {
             var node = XElement.Load(Identifiable);
 
-            var identifiable = new ArIdentifiableDouble(node);
+            var identifiable = new IdentifiableDouble(node);
             var longName = identifiable.LongName.First();
 
             Assert.NotEmpty(identifiable.LongName);
@@ -55,7 +55,7 @@ namespace AsrLibrary.Test.ArIdentifiable
         {
             var node = XElement.Load(Identifiable);
 
-            var identifiable = new ArIdentifiableDouble(node);
+            var identifiable = new IdentifiableDouble(node);
             var deGerman = identifiable.Description.First();
             var enEnglish = identifiable.Description.Last();
 
@@ -74,7 +74,7 @@ namespace AsrLibrary.Test.ArIdentifiable
         {
             var node = XElement.Load(Identifiable);
 
-            var identifiable = new ArIdentifiableDouble(node);
+            var identifiable = new IdentifiableDouble(node);
 
             Assert.Equal("Category", identifiable.Category);
         }
@@ -85,7 +85,7 @@ namespace AsrLibrary.Test.ArIdentifiable
             const string uuid = "00112233445566778899AABBCCDDEEFF";
             var node = XElement.Load(Identifiable);
 
-            var identifiable = new ArIdentifiableDouble(node);
+            var identifiable = new IdentifiableDouble(node);
 
             Assert.Equal(uuid, identifiable.Uuid);
         }

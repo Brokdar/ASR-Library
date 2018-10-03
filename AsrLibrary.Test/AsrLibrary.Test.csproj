@@ -57,15 +57,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArElement\DefaultElement.cs" />
-    <Compile Include="ArIdentifiable\CreateIdentifiableFromXElement.cs" />
-    <Compile Include="ArIdentifiable\DefaultIdentifiable.cs" />
-    <Compile Include="ArIdentifiable\TestDouble\ArIdentifiableDouble.cs" />
-    <Compile Include="ArObject\TestDouble\ArObjectDouble.cs" />
-    <Compile Include="ArObject\CreateObjectFromXElement.cs" />
-    <Compile Include="ArObject\DefaultObject.cs" />
-    <Compile Include="ArPackage\CreatePackageFromXElement.cs" />
-    <Compile Include="ArPackage\DefaultPackage.cs" />
+    <Compile Include="Model\ArElement\DefaultElement.cs" />
+    <Compile Include="Model\Identification\Identifiable\CreateIdentifiableFromXElement.cs" />
+    <Compile Include="Model\Identification\Identifiable\DefaultIdentifiable.cs" />
+    <Compile Include="Model\Identification\Identifiable\TestDouble\IdentifiableDouble.cs" />
+    <Compile Include="Model\ArObject\TestDouble\ArObjectDouble.cs" />
+    <Compile Include="Model\ArObject\CreateObjectFromXElement.cs" />
+    <Compile Include="Model\ArObject\DefaultObject.cs" />
+    <Compile Include="Model\ArPackage\CreatePackageFromXElement.cs" />
+    <Compile Include="Model\ArPackage\DefaultPackage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -75,13 +75,13 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ArIdentifiable\ExampleData\00_ArIdentifiable.xml" />
-    <Content Include="ArIdentifiable\ExampleData\01_ArIdentifiable.xml" />
-    <Content Include="ArPackage\ExampleData\00_ArPackage.xml" />
-    <Content Include="ArObject\ExampleData\00_ArObject.xml" />
-    <Content Include="ArPackage\ExampleData\01_ArPackage.xml" />
-    <Content Include="ArPackage\ExampleData\02_ArPackage.xml" />
-    <Content Include="ArPackage\ExampleData\03_ArPackage.xml" />
+    <Content Include="Model\Identification\Identifiable\ExampleData\00_ArIdentifiable.xml" />
+    <Content Include="Model\Identification\Identifiable\ExampleData\01_ArIdentifiable.xml" />
+    <Content Include="Model\ArPackage\ExampleData\00_ArPackage.xml" />
+    <Content Include="Model\ArObject\ExampleData\00_ArObject.xml" />
+    <Content Include="Model\ArPackage\ExampleData\01_ArPackage.xml" />
+    <Content Include="Model\ArPackage\ExampleData\02_ArPackage.xml" />
+    <Content Include="Model\ArPackage\ExampleData\03_ArPackage.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

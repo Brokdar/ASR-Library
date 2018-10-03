@@ -2,14 +2,14 @@
 using System.Xml.Linq;
 using Xunit;
 
-namespace AsrLibrary.Test.ArPackage
+namespace AsrLibrary.Test.Model.ArPackage
 {
     public class CreatePackageFromXElement
     {
-        private const string EmptyPackage = "../../ArPackage/ExampleData/00_ArPackage.xml";
-        private const string PackageWithSubPackages = "../../ArPackage/ExampleData/01_ArPackage.xml";
-        private const string PackageWithElements = "../../ArPackage/ExampleData/02_ArPackage.xml";
-        private const string NodeWithoutPackage = "../../ArPackage/ExampleData/03_ArPackage.xml";
+        private const string EmptyPackage = "../../Model/ArPackage/ExampleData/00_ArPackage.xml";
+        private const string PackageWithSubPackages = "../../Model/ArPackage/ExampleData/01_ArPackage.xml";
+        private const string PackageWithElements = "../../Model/ArPackage/ExampleData/02_ArPackage.xml";
+        private const string NodeWithoutPackage = "../../Model/ArPackage/ExampleData/03_ArPackage.xml";
 
         [Fact]
         public void GivenNullAsParameter_ThenReturnsNull()
