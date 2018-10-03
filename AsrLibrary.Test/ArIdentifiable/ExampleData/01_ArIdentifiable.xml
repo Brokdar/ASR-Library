@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<IDENTIFIABLE UUID="00112233445566778899AABBCCDDEEFF">
+  <SHORT-NAME>Name</SHORT-NAME>
+  <LONG-NAME>
+    <L-4 L="FOR-ALL">GlobalName</L-4>
+  </LONG-NAME>
+  <DESC>
+    <L-2 L="DE">German</L-2>
+    <L-2 L="EN">English</L-2>
+  </DESC>
+  <CATEGORY>Category</CATEGORY>
+</IDENTIFIABLE>
