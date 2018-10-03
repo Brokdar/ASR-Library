@@ -10,7 +10,7 @@ namespace ASR.Model
     /// </summary>
     public class ArElement : Identifiable
     {
-        public ArElement(XElement node) : base(node)
+        protected ArElement(XElement node) : base(node)
         {
         }
 

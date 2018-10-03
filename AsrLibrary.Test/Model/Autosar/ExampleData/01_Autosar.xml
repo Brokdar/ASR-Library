@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AUTOSAR>
+  <AR-PACKAGES>
+    <AR-PACKAGE>
+      <SHORT-NAME>Package1</SHORT-NAME>
+    </AR-PACKAGE>
+    <AR-PACKAGE>
+      <SHORT-NAME>Package2</SHORT-NAME>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>
