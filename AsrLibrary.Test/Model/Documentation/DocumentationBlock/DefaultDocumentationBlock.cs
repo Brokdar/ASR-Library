@@ -18,6 +18,16 @@ namespace AsrLibrary.Test.Model.Documentation.DocumentationBlock
         }
 
         [Fact]
+        public void IsArObject()
+        {
+            var node = XElement.Parse(EmptyNode);
+
+            var doc = ASR.Model.Documentation.DocumentationBlock.FromXElement(node);
+
+            Assert.IsAssignableFrom<ASR.Model.ArObject>(doc);
+        }
+
+        [Fact]
         public void HasEmptyParagraphs()
         {
             var node = XElement.Parse(EmptyNode);

@@ -57,6 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\AdministrationData\DocRevision\DefaultDocRevision.cs" />
     <Compile Include="Model\ArElement\DefaultElement.cs" />
     <Compile Include="Model\Autosar\CreateAutosarWithData.cs" />
     <Compile Include="Model\Autosar\DefaultAutosar.cs" />
@@ -97,6 +98,9 @@
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\xunit.analyzers.0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\AdministrationData\DocRevision\ExampleData\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

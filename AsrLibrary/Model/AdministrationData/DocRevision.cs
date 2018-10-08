@@ -16,7 +16,7 @@ namespace ASR.Model.AdministrationData
         /// <summary>
         /// This specifies the date and time, when the object in question was released
         /// </summary>
-        public DateTime Date { get; private set; }
+        public DateTime? Date { get; private set; }
 
         /// <summary>
         /// This is the name of an individual or an organization who issued
@@ -44,7 +44,7 @@ namespace ASR.Model.AdministrationData
         {
         }
 
-        public DocRevision FromXElement(XElement node)
+        public static DocRevision FromXElement(XElement node)
         {
             if (node == null || node.Name.LocalName != "DOC-REVISION")
                 return null;
